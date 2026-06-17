@@ -1,0 +1,8 @@
+t1=("apple","banana","cherry")
+list=list(t1)
+print(t1)
+print(list)
+list.append("orange")
+print(list)
+t1=tuple(list)
+print(t1)
