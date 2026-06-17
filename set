@@ -7,3 +7,15 @@ print(s1)
 print("banana" in s1)
 print("mango" in s1)
 print("mango" not in s1)
+
+#ex2
+set1={10,20,30}
+set2={30,40,50}
+ans1=set1|set2  #union
+print(ans1)
+ans2=set1^set2  #symmentric difference
+print(ans2)
+ans3=set1&set2  #intersection
+print(ans3)
+ans4=set1-set2  #difference
+print(ans4)
