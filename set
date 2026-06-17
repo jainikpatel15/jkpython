@@ -1,0 +1,9 @@
+s1={"apple","banana","cherry"}
+print(s1)
+s1.add("mango")
+print(s1)
+s1.remove("mango")
+print(s1)
+print("banana" in s1)
+print("mango" in s1)
+print("mango" not in s1)
