@@ -1,0 +1,9 @@
+list=["apple","banana","cherry"]
+l1=list.append("orange")
+print(list)
+list.insert(1,"mango")
+print(list)
+list.remove("orange")
+print(list)
+del list
+print(list)
