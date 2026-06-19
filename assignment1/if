@@ -1,0 +1,63 @@
+#if
+a=10
+b=20
+if b>a:
+  print("b is greater than a")
+
+#if else
+x=25
+y=15
+if x>y:
+  print("x is greater than y")  
+else:
+    print("y is greater than x")
+
+#if..elif..else
+p=10
+q=20
+r=30
+if p>q and p>r:
+    print("p is the greatest")
+elif q>p and q>r:
+    print("q is the greatest")
+else:
+    print("r is the greatest")
+    
+#nested if
+x1 = 40
+
+if x1 > 10:
+  print("Above ten,")
+  if x1 > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")    
+
+#match
+day = 4
+match day:
+  case 1:
+    print("Monday")
+  case 2:
+    print("Tuesday")
+  case 3:
+    print("Wednesday")
+  case 4:
+    print("Thursday")
+  case 5:
+    print("Friday")
+  case 6:
+    print("Saturday")
+  case 7:
+    print("Sunday")    
+
+#operater
+a1 = 20
+b1 = 30
+c1 = 50
+if a1 > b1 and a1 > c1:
+  print("a is greter then all")
+elif b1 > a1 and b1 > c1:
+  print("b is greter then all")
+else:
+  print("c is greter then all")    
