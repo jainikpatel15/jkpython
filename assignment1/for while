@@ -1,0 +1,51 @@
+#while
+i = 1
+while i < 11:
+  print("while")
+  print(i)
+  i += 1
+
+i1 = 1
+while i1 < 10:
+  print("while break")
+  print(i1)
+  if i1 == 8:
+    break
+  i1 += 1  
+
+i2=1
+while i2 < 10:
+  i2 += 1
+  if i2 == 8:
+    continue
+  print(i2)
+
+#for
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:    
+  print(x)
+
+fruits1 = ["apple", "banana", "cherry"]
+for x in fruits1:       
+  if x == "banana":
+    break
+  print(x)
+
+fruits2 = ["apple", "banana", "cherry"]
+for x in fruits2:           
+  if x == "banana":
+    continue
+  print(x)
+
+#ex of *
+for i in range(1,6):
+  print(i * "*")      
+
+for i in range(6,1,-1):
+    print(i * "*")
+
+# Take 4 name from the user
+
+for i in range(4):
+    name = input("Enter a name: ")
+    print("You name is:", name) 
