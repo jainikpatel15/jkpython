@@ -1,0 +1,28 @@
+def my_function():
+    
+    print("Hello, World!")
+    return "Function executed successfully"  
+
+a= my_function()  
+print(a) 
+
+#fun in for
+for i in range(3):
+    my_function() 
+
+def sum():
+    a=10
+    b=20
+    c=a+b
+    return c 
+res = sum()
+print(res)
+
+def number(n):
+    total=0
+    for i in range(1,n+1):
+        total+=i
+    return total
+num=int(input("enter a number:"))
+answer=number(num)
+print("sum=",answer)
