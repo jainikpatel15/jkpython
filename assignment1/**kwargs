@@ -1,0 +1,6 @@
+def my_function(**myvar):
+  print("Name:", myvar["name"])
+  print("Age:", myvar["age"])
+  print("City:", myvar["city"])
+
+my_function(name = "jainik", age = 17, city = "ahmdabad")
