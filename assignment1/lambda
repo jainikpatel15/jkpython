@@ -1,0 +1,6 @@
+x = lambda a : a + 10
+x1=lambda a,b : a*b
+x2=lambda a,b,c : a+b+c
+print(x(5,))
+print(x1(5,10))
+print(x2(5,10,15))
