@@ -1,0 +1,86 @@
+# Class 1
+class Student1:
+
+    def __init__(self, name, enroll, dept):
+        self.name = name
+        self.enroll = enroll
+        self.dept = dept
+
+    def get(self):
+        print(self.name, self.enroll, self.dept)
+
+    def post(self, name, enroll, dept):
+        self.name = name
+        self.enroll = enroll
+        self.dept = dept
+
+
+# Class 2
+class student2:
+
+  def __init__(self, name, enroll, dept):
+        self.name = name
+        self.enroll = enroll
+        self.dept = dept
+    
+def get(self):
+        print(self.name, self.enroll, self.dept)
+
+    def post(self, name, enroll, dept):
+        self.name = name
+        self.enroll = enroll
+        self.dept = dept
+
+
+
+# Class 3
+class student3:
+
+  def __init__(self, name, enroll, dept):
+        self.name = name
+        self.enroll = enroll
+        self.dept = dept
+    
+def get(self):
+        print(self.name, self.enroll, self.dept)
+
+    def post(self, name, enroll, dept):
+        self.name = name
+        self.enroll = enroll
+        self.dept = dept
+
+
+# 2 objects for Student1
+s1 = Student1("jainik",107,"CE")
+s1 = Student1("kavya",079,"CE")
+
+# 2 objects for Student2
+s2 = Student2("raj",001,"CE")
+s2 = Student2("prem",136,"CE")
+
+# 2 objects for Student3
+s3 = Student3("nishit",045,"CE")
+s3 = Student3("mohini",196,"CE")
+
+
+# get()
+s1.get()
+s1.get()
+
+s2.get()
+s2.get()
+
+s3.get()
+s3.get()
+
+
+# post() - edit values
+s1.post("Data Science", "David", 650)
+s2.post("Apple", "iPhone 16", 90000)
+s3.post("Anita", "English", 7)
+
+print("\nAfter editing:")
+
+s1.get()
+s2.get()
+s3.get()

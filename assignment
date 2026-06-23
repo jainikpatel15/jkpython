@@ -5,4 +5,9 @@ x3=x*3
 x4=x/3
 x5=x>>3
 x6=x<<3
-print()
+print(x1)
+print(x2)
+print(x3)
+print(x4)
+print(x5)
+print(x6)
